@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.tab-head {
+  display: flex;
+}
+.single-tab {
+  border: 1px solid black;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.tab-view {
+  padding: 5px;
+  border: 1px solid black;
+  height: 50vh;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: baseline;
+}
+.interest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
